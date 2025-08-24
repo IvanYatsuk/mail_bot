@@ -2,7 +2,7 @@ import telebot
 import sqlite3
 
 
-API_TOKEN = "8341067903:AAE33Q1Q5FAXJPL2NFcsvz55OE-VPP0rUcA"
+API_TOKEN = "enter your token"
 
 connect = sqlite3.connect("email.db", check_same_thread=False)
 data = connect.cursor()
