@@ -6,7 +6,7 @@ API_TOKEN = "enter the bot token"
 
 import sqlite3
 
-Connection = sqlite3.connect("sql.db")
+Connection = sqlite3.connect("emails.db")
 if Connection is None:
     print("Connection failed")
 else:
